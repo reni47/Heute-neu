@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Für dich, mein Herz ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="theme-default">
+    
+    <!-- ============================================ -->
+    <!-- CINEMATIC TRAILER / INTRO -->
+    <!-- ============================================ -->
+    <div id="trailer" class="trailer-overlay">
+        <!-- Luxury Background -->
+        <div class="trailer-bg-luxury">
+            <div class="luxury-gradient"></div>
+            <div class="luxury-pattern"></div>
+            <div class="gold-particles"></div>
+        </div>
+        
+        <!-- Floating Gold Particles -->
+        <div class="particles-container-luxury"></div>
+        
+        <!-- Stage 1: Opening Title with Elegant Typography -->
+        <div class="trailer-stage stage-1 active">
+            <div class="elegant-title-container">
+                <h1 class="elegant-title">
+                    <span class="title-word">D</span>
+                    <span class="title-word">I</span>
+                    <span class="title-word">L</span>
+                    <span class="title-word">E</span>
+                    <span class="title-word">M</span>
+                    <span class="title-word">I</span>
+                    <span class="title-word">N</span>
+                </h1>
+                <div class="elegant-divider"></div>
+                <p class="elegant-subtext">Dein Mann hat sich etwas überlegt</p>
+                <div class="shimmer-overlay"></div>
+            </div>
+        </div>
+        
+        <!-- Stage 2: Elegant Curtain Reveal -->
+        <div class="trailer-stage stage-2">
+            <div class="curtain curtain-left"></div>
+            <div class="curtain curtain-right"></div>
+            <div class="curtain-light"></div>
+            <div class="gold-sparkles-container">
+                <div class="light-beam" style="left: 15%; animation-delay: 0s;"></div>
+                <div class="light-beam" style="left: 35%; animation-delay: 2s;"></div>
+                <div class="light-beam" style="left: 65%; animation-delay: 4s;"></div>
+                <div class="light-beam" style="left: 85%; animation-delay: 6s;"></div>
+            </div>
+        </div>
+        
+        <!-- Stage 3: Realistic 3D MacBook Pro -->
+        <div class="trailer-stage stage-3">
+            <div class="macbook-scene">
+                <!-- Ambient Lighting -->
+                <div class="ambient-light"></div>
+                
+                <!-- MacBook Pro 3D -->
+                <div class="macbook-3d">
+                    <!-- Screen -->
+                    <div class="macbook-screen-3d">
+                        <div class="screen-frame">
+                            <!-- Camera Notch -->
+                            <div class="camera-housing">
+                                <div class="camera-lens"></div>
+                            </div>
+                            
+                            <!-- Display Content -->
+                            <div class="display-panel">
+                                <div class="display-gradient"></div>
+                                
+                                <!-- Animated Content -->
+                                <div class="display-content">
+                                    <div class="golden-heart-animation">
+                                        <div class="heart-glow"></div>
+                                        <svg class="heart-svg" viewBox="0 0 100 100">
+                                            <path d="M50,85 C50,85 15,60 15,40 C15,25 25,15 35,15 C42,15 47,20 50,25 C53,20 58,15 65,15 C75,15 85,25 85,40 C85,60 50,85 50,85 Z" 
+                                                  fill="url(#goldGradient)" 
+                                                  stroke="#d4af37" 
+                                                  stroke-width="1"/>
+                                            <defs>
+                                                <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                                    <stop offset="0%" style="stop-color:#ffd700;stop-opacity:1" />
+                                                    <stop offset="100%" style="stop-color:#d4af37;stop-opacity:1" />
+                                                </linearGradient>
+                                            </defs>
+                                        </svg>
+                                    </div>
+                                    
+                                    <h2 class="display-title">Für Myra</h2>
+                                    <p class="display-message">Ich hoffe, es gefällt dir...</p>
+                                </div>
+                            </div>
+                            
+                            <!-- Screen Reflection -->
+                            <div class="screen-glare"></div>
+                        </div>
+                    </div>
+                    
+                    <!-- Keyboard Base -->
+                    <div class="macbook-base-3d">
+                        <div class="keyboard-deck">
+                            <div class="keyboard-keys"></div>
+                            <div class="trackpad-3d"></div>
+                        </div>
+                        <div class="base-edge"></div>
+                    </div>
+                    
+                    <!-- Realistic Shadow -->
+                    <div class="macbook-shadow-realistic"></div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Stage 4: Golden Spiral Transition -->
+        <div class="trailer-stage stage-4">
+            <div class="golden-spiral">
+                <div class="spiral-ring ring-1"></div>
+                <div class="spiral-ring ring-2"></div>
+                <div class="spiral-ring ring-3"></div>
+                <div class="spiral-ring ring-4"></div>
+                <div class="spiral-ring ring-5"></div>
+                <div class="spiral-center">
+                    <div class="center-ornament">✦</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Stage 5: Elegant Final Message -->
+        <div class="trailer-stage stage-5">
+            <div class="final-message">
+                <div class="message-ornament top">◆</div>
+                <h1 class="final-title">Frohen Valentinstag</h1>
+                <div class="final-divider">
+                    <span class="divider-line"></span>
+                    <span class="divider-heart">♥</span>
+                    <span class="divider-line"></span>
+                </div>
+                <h2 class="final-name">Myra</h2>
+                <div class="message-ornament bottom">◆</div>
+            </div>
+        </div>
+        
+        <!-- Skip Button -->
+        <button class="skip-trailer-luxury">Überspringen →</button>
+    </div>
+    
+    <!-- ============================================ -->
+    <!-- VALENTINE QUESTION (nach Trailer) -->
+    <!-- ============================================ -->
+    <div id="valentineQuestion" class="valentine-question hidden">
+        <div class="question-container">
+            <h1 class="question-title">Will you be my Valentine?</h1>
+            <h2 class="question-name">Myra ❤️</h2>
+            
+            <div class="question-buttons">
+                <button id="yesBtn" class="question-btn yes-btn">Yes! 💝</button>
+                <button id="noBtn" class="question-btn no-btn">No</button>
+            </div>
+        </div>
+        
+        <!-- Celebration Overlay -->
+        <div id="celebration" class="celebration-overlay hidden">
+            <div class="celebration-content">
+                <h1 class="celebration-title">Ich wusste, du sagst Ja!</h1>
+                <h2 class="celebration-subtitle">Kezeba min ❤️</h2>
+                <div class="celebration-hearts">
+                    <span class="celebration-heart">💝</span>
+                    <span class="celebration-heart">💖</span>
+                    <span class="celebration-heart">💗</span>
+                    <span class="celebration-heart">💘</span>
+                    <span class="celebration-heart">💝</span>
+                </div>
+            </div>
+            
+            <!-- Fireworks Container -->
+            <div class="fireworks-container"></div>
+            
+            <!-- Confetti Container -->
+            <canvas id="confettiCanvas" class="confetti-canvas"></canvas>
+        </div>
+    </div>
+    
+    <!-- ============================================ -->
+    <!-- HEARTS LAYER (für Animationen) -->
+    <!-- ============================================ -->
+    <div id="heartsLayer" class="hearts-layer"></div>
+    
+    <!-- ============================================ -->
+    <!-- MAIN WEBSITE CONTENT -->
+    <!-- ============================================ -->
+    <div id="mainContent" class="main-content hidden">
+        
+        <!-- Theme Switcher (oben rechts) -->
+        <button id="themeBtn" class="theme-btn" title="Farbschema wechseln">🎨</button>
+        
+        <!-- ============================================ -->
+        <!-- 1) HERO / INTRO -->
+        <!-- ============================================ -->
+        <section class="hero-section scroll-reveal">
+            <div class="container">
+                <!-- Badge -->
+                <div class="badge">Für dich, Myra ❤️</div>
+                
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1 class="hero-title">Für dich,<br>Dilemin.</h1>
+                        <p class="hero-subtitle">Seit dem <strong>29.12.2022</strong> — und ich würde dich immer wieder wählen, Myra.</p>
+                        
+                        <div class="hero-buttons">
+                            <button id="mainHeartBtn" class="btn btn-primary">❤️ Drück mich</button>
+                            <button id="scrollGalleryBtn" class="btn btn-secondary">Weiter</button>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-image-wrapper">
+                        <div class="hero-image-card">
+                            <div class="image-glow"></div>
+                            <img src="img/hero.jpg" alt="Unser Moment" class="hero-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- ============================================ -->
+        <!-- 2) BEZIEHUNGSDAUER TIMER -->
+        <!-- ============================================ -->
+        <section class="timer-section scroll-reveal">
+            <div class="container">
+                <h2 class="section-title">Unsere Zeit zusammen</h2>
+                
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon">📅</div>
+                        <div class="stat-value" id="daysSince">0</div>
+                        <div class="stat-label">Tage</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">⏰</div>
+                        <div class="stat-value" id="hoursSince">0</div>
+                        <div class="stat-label">Stunden</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">⏱️</div>
+                        <div class="stat-value" id="minutesSince">0</div>
+                        <div class="stat-label">Minuten</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- ============================================ -->
+        <!-- 3) BILDER-GALERIE -->
+        <!-- ============================================ -->
+        <section class="gallery-section scroll-reveal" id="gallery">
+            <div class="container">
+                <h2 class="section-title">Unsere Momente</h2>
+                
+                <div class="carousel-container">
+                    <button class="carousel-btn prev" id="prevBtn">‹</button>
+                    
+                    <div class="carousel-wrapper">
+                        <div class="carousel-track" id="carouselTrack">
+                            <!-- Slide 1 -->
+                            <div class="carousel-slide active">
+                                <img src="img/1.jpg" alt="Moment 1">
+                                <figcaption class="slide-caption">Unser erster gemeinsamer Tag</figcaption>
+                            </div>
+                            <!-- Slide 2 -->
+                            <div class="carousel-slide">
+                                <img src="img/2.jpg" alt="Moment 2">
+                                <figcaption class="slide-caption">Lachen und Abenteuer</figcaption>
+                            </div>
+                            <!-- Slide 3 -->
+                            <div class="carousel-slide">
+                                <img src="img/3.jpg" alt="Moment 3">
+                                <figcaption class="slide-caption">Gemeinsame Träume</figcaption>
+                            </div>
+                            <!-- Slide 4 -->
+                            <div class="carousel-slide">
+                                <img src="img/4.jpg" alt="Moment 4">
+                                <figcaption class="slide-caption">Für immer und einen Tag</figcaption>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <button class="carousel-btn next" id="nextBtn">›</button>
+                </div>
+                
+                <!-- Carousel Indicators -->
+                <div class="carousel-indicators" id="indicators"></div>
+            </div>
+        </section>
+        
+        <!-- ============================================ -->
+        <!-- 4) RANDOM REASONS -->
+        <!-- ============================================ -->
+        <section class="reasons-section scroll-reveal">
+            <div class="container">
+                <h2 class="section-title">Warum ich dich liebe</h2>
+                
+                <div class="reasons-card">
+                    <div class="reason-text" id="reasonText">
+                        Klick auf den Button für einen Grund ❤️
+                    </div>
+                    <button id="newReasonBtn" class="btn btn-primary">Neuer Grund</button>
+                </div>
+            </div>
+        </section>
+        
+        <!-- ============================================ -->
+        <!-- 5) LIEBESBRIEF (Envelope) -->
+        <!-- ============================================ -->
+        <section class="letter-section scroll-reveal">
+            <div class="container">
+                <h2 class="section-title">Eine Nachricht für dich</h2>
+                
+                <div class="envelope-container">
+                    <div class="envelope" id="envelope">
+                        <div class="envelope-flap"></div>
+                        <div class="envelope-body">
+                            <div class="seal" id="seal">❤️</div>
+                        </div>
+                    </div>
+                    
+                    <div class="letter-content hidden" id="letterContent">
+                        <div class="letter-paper">
+                            <p class="letter-text">
+                                Mein Liebling,<br><br>
+                                
+                                Manchmal fehlen mir die Worte, um zu beschreiben, was du für mich bedeutest. 
+                                Du bist das Lächeln in meinem Morgen, die Ruhe in meiner Nacht und die Freude 
+                                in jedem Moment dazwischen.<br><br>
+                                
+                                Seit dem 29. Dezember 2022 hat sich meine Welt verändert – sie wurde heller, 
+                                wärmer und voller Liebe. Mit dir an meiner Seite fühlt sich alles richtig an.<br><br>
+                                
+                                Danke, dass du du bist. Danke, dass du mich liebst. Danke, dass du bleibst.<br><br>
+                                
+                                Ich liebe dich – heute, morgen und für immer.<br><br>
+                                
+                                <span class="letter-signature">— Dein Reni ❤️</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- ============================================ -->
+        <!-- 6) MUSIK-ABSCHNITT (Optional) -->
+        <!-- ============================================ -->
+        <section class="music-section scroll-reveal">
+            <div class="container">
+                <h2 class="section-title">Unser Lied</h2>
+                
+                <div class="music-card">
+                    <div class="music-preview" id="musicPreview">
+                        <div class="music-icon">🎵</div>
+                        <p>Klick hier, um unsere Musik zu hören</p>
+                        <button id="playMusicBtn" class="btn btn-primary">▶ Abspielen</button>
+                    </div>
+                    
+                    <!-- Spotify Embed (standardmäßig versteckt) -->
+                    <div class="music-player hidden" id="musicPlayer">
+                        <!-- 
+                        PERSONALISIERUNG: Ersetze SPOTIFY_SONG_ID mit deiner Song-ID
+                        Beispiel: https://open.spotify.com/track/3n3Ppam7vgaVa1iaRUc9Lp
+                        -> SPOTIFY_SONG_ID = 3n3Ppam7vgaVa1iaRUc9Lp
+                        -->
+                        <iframe 
+                            src="https://open.spotify.com/embed/track/SPOTIFY_SONG_ID?utm_source=generator&theme=0" 
+                            width="100%" 
+                            height="152" 
+                            frameborder="0" 
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                            loading="lazy">
+                        </iframe>
+                        
+                        <!-- ALTERNATIV: YouTube Embed (lösche Spotify und nutze diesen Code) -->
+                        <!-- 
+                        <iframe 
+                            width="100%" 
+                            height="315" 
+                            src="https://www.youtube.com/embed/YOUTUBE_VIDEO_ID?autoplay=1" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                        -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- ============================================ -->
+        <!-- 7) GEHEIM-BEREICH (Passwort) -->
+        <!-- ============================================ -->
+        <section class="secret-section scroll-reveal">
+            <div class="container">
+                <h2 class="section-title">Ein Geheimnis</h2>
+                
+                <div class="secret-card">
+                    <div class="secret-lock" id="secretLock">
+                        <div class="lock-icon">🔒</div>
+                        <p>Gib das geheime Wort ein:</p>
+                        <input type="text" id="secretInput" class="secret-input" placeholder="Passwort">
+                        <button id="unlockBtn" class="btn btn-primary">Öffnen</button>
+                    </div>
+                    
+                    <div class="secret-reveal hidden" id="secretReveal">
+                        <div class="unlock-icon">🔓</div>
+                        <h3>Überraschung! 🎉</h3>
+                        <p>
+                            <!-- PERSONALISIERUNG: Hier deine geheime Nachricht/Überraschung -->
+                            Pack deine Koffer, mein Schatz! 
+                            Am 14. Februar fliegen wir für ein romantisches Wochenende nach Paris. 
+                            Eiffelturm, Candle-Light-Dinner und jede Menge Zeit nur für uns zwei. ✈️❤️
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- ============================================ -->
+        <!-- 8) FINALE -->
+        <!-- ============================================ -->
+        <section class="finale-section scroll-reveal">
+            <div class="container">
+                <div class="finale-card">
+                    <div class="pulsing-heart">❤️</div>
+                    <h2>Frohen Valentinstag</h2>
+                    <p>Ich liebe dich mehr als Worte sagen können.</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- ============================================ -->
+        <!-- FOOTER -->
+        <!-- ============================================ -->
+        <footer class="footer">
+            <p>Gemacht mit ❤️ für die Liebe meines Lebens</p>
+        </footer>
+        
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
